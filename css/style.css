@@ -31,6 +31,12 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+/* bottoni iniziali */
 .square{
     background-color: #4a90e2;
     border-radius: 10px;
@@ -45,6 +51,30 @@ h1{
     padding: 8px;
 }
 
+/* tick e cross colorate */
+.tick{
+    width: 20px;
+    height: 20px;
+    color: green;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.cross{
+    width: 20px;
+    height: 20px;
+    color: red;
+    font-size: 0.8em;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* varie tag */
 .task span {
     margin-left: 10px;
 }
@@ -59,19 +89,19 @@ h1{
 .col-wh{
     color: white;
 }
-.editorial { 
+.editorial{ 
     background-color: #4a90e2; 
 }
 
-.q1-goals {    
+.q1-goals{    
     background-color: #9b59b6; 
 }
 
-.recruiting { 
+.recruiting{ 
     background-color: #2ecc71; 
 }
         
-.mobile { 
+.mobile{ 
     background-color: #f39c12; 
 }
 
@@ -79,16 +109,18 @@ h1{
     background-color: #e91e63; 
 }
    
-.sales {
+.sales{
      background-color: #2ecc71; 
 }
 
+
+/* elementi list */
 ul{
     list-style-type:none;
 }
 
 li{
-    padding: 8px;
+    padding: 7px;
 }
 
 /* spaziatura */
