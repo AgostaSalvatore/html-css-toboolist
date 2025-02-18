@@ -45,24 +45,6 @@ h1{
     padding: 8px;
 }
 
-
-
-/* spaziatura */
-.container{
-    background-color: #fff;
-    width: 1200px;
-    margin: 0 auto;
-    padding-left: 40px;
-    padding-top: 15px;
-}
-
-.bg-blue{
-    height: 30px;
-    width: 70px;
-    background-color:rgb(73, 172, 237);
-    border-radius: 5px;
-}
-
 .task span {
     margin-left: 10px;
 }
@@ -79,31 +61,33 @@ h1{
 }
 .editorial { 
     background-color: #4a90e2; 
-    color: white; 
 }
 
 .q1-goals {    
     background-color: #9b59b6; 
-    color: white; 
 }
 
 .recruiting { 
     background-color: #2ecc71; 
-    color: white; 
 }
         
 .mobile { 
     background-color: #f39c12; 
-    color: white; 
 }
 
 .website { 
     background-color: #e91e63; 
-    color: white; 
 }
    
 .sales {
      background-color: #2ecc71; 
-     color: white;
 }
 
+/* spaziatura */
+.container{
+    background-color: #fff;
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-top: 15px;
+}
